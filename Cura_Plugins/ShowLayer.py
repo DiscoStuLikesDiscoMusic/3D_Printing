@@ -49,6 +49,6 @@ with open(filename, "w") as f:
 			ActualLayer = ActualLayer + 1
 			if ActualLayer <= int(LayerCount):
 				ActualLayer = str(ActualLayer)
-				f.write("M117 Layer " + ActualLayer + " of " + LayerCount + ".\n")
+				f.write("M117 Layer " + ActualLayer + " of " + LayerCount + "\n")
 			
 		
